@@ -4,7 +4,8 @@
 
 The simple spatial join nearest function only calculate the nearest feature without considering if they have any common type or category this function calculates the nearest similar object.
 
-See the explained.png to understand better for example: target feature with id:1 and type: sign_pole is spatially closest to base feature of type: traffic light but its ignored because the type/category doesnt match and hence it gives distance of nearest point where type matches (connected with line for illustration)
+See the explained.png to understand better 
+for example: target feature with id:1 and type: sign_pole is spatially closest to base feature of type: traffic light but it is ignored because the base type/category doesnt match with target feature type and hence it gives distance of nearest point where type matches in both i.e. sign_pole (connected with line for illustration)
 
 
-##### work in progress, right now only considered for point data frames, no error handling, slow coz of geoseries distance calculation method
+###### work in progress, right now only considered for point data frames, no error handling, slow coz of geoseries distance calculation method
